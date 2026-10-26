@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VOLT | Sport Wear</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#080808;color:white;font-family:Arial,sans-serif}
+header{padding:24px 7%;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #292929}
+.logo{font-size:32px;font-weight:900;letter-spacing:5px}
+.logo span{color:#8bdcb3}
+nav a{color:white;text-decoration:none;margin-left:18px;font-size:13px}
+.hero{min-height:75vh;display:flex;flex-direction:column;justify-content:center;padding:60px 8%;background:linear-gradient(90deg,#080808 30%,#18251e)}
+.hero small{color:#8bdcb3;letter-spacing:5px}
+.hero h1{font-size:clamp(55px,12vw,110px);font-weight:900;line-height:1;margin:20px 0}
+.hero p{color:#aaa;font-size:17px}
+.btn{display:inline-block;background:#8bdcb3;color:#080808;padding:16px 30px;text-decoration:none;font-weight:bold;margin-top:30px;width:max-content}
+section{padding:65px 7%}
+h2{font-size:34px;margin-bottom:30px}
+.products{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.product{background:#171717;padding:12px}
+.product img{width:100%;aspect-ratio:3/4;object-fit:cover;background:#252525}
+.product h3{margin:14px 0 8px}
+.product p{color:#8bdcb3}
+footer{text-align:center;padding:35px;color:#888;border-top:1px solid #292929}
+@media(max-width:600px){nav a{margin-left:8px;font-size:11px}.products{grid-template-columns:1fr 1fr}.hero{min-height:65vh}}
+</style>
+</head>
+<body>
+<header>
+<div class="logo">V<span>F</span></div>
+<nav><a href="#home">HOME</a><a href="#shop">SHOP</a><a href="#contact">CONTACT</a></nav>
+</header>
+<main>
+<div class="hero" id="home">
+<small>POWER • FOCUS • PERFORMANCE</small>
+<h1>VOLT<br>SPORT WEAR</h1>
+<p>Train hard. Move freely. Be different.</p>
+<a class="btn" href="#shop">EXPLORE COLLECTION</a>
+</div>
+<section id="shop">
+<h2>OUR COLLECTION</h2>
+<div class="products">
+<div class="product"><img src="https://placehold.co/500x650/202020/ffffff?text=VOLT+TEE" alt="VOLT T-shirt"><h3>VOLT T-SHIRT</h3><p>Coming Soon</p></div>
+<div class="product"><img src="https://placehold.co/500x650/202020/ffffff?text=VOLT+SHORTS" alt="VOLT shorts"><h3>VOLT SHORTS</h3><p>Coming Soon</p></div>
+<div class="product"><img src="https://placehold.co/500x650/202020/ffffff?text=VOLT+TRACKSUIT" alt="VOLT tracksuit"><h3>VOLT TRACKSUIT</h3><p>Coming Soon</p></div>
+</div>
+</section>
+</main>
+<footer id="contact">VOLT SPORT WEAR © 2026</footer>
+</body>
+</html>
